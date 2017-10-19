@@ -11,3 +11,11 @@
 &lt;&lt;:Here Document.
 
 &lt;&lt;&lt;: Here string.
+
+##Metacaracteres
+
+~: Mi directorio HOME.
+.: Directorio actual.
+..: El directorio de arriba.
+
+- (A veces el fichero que representa la terminal)
