@@ -13,6 +13,7 @@ mkdir: make directory. Crear un directorio.
 rm: remove. Quitar un archivo.
 rmdir:remove directory. (sólo si está vacío).
 rm -rf (*r*ecursivo *f*orce)
+mv:cambia el nombre o mueve de sitio un archivo
 
 
 
@@ -40,4 +41,21 @@ head
 cut: Corta vertical => cut -f1 -d" " / cut -f2- -d" ".
 split: Divide horizontal.
 
-##Comandos que filtran.
+
+## Información en los manuales
+man o info
+1 Herramienta de la terminal.
+2 Núcleo de sistema.
+3 Desorrollo de aplicaciones.
+
+##Comandos que filtran
+
+
+
+#Otros
+wget: Descarga de Internet.
+-s: Squeeze
+sort: ordenar
+uniq -c: Deja filas únicas  -c: cuenta
+telnet: conectarse a un puerto de una máquina
+tr: Translate    cat [archivo] | tr "" ""
