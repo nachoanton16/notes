@@ -14,7 +14,7 @@ rm: remove. Quitar un archivo.
 rmdir:remove directory. (sólo si está vacío).
 rm -rf (*r*ecursivo *f*orce)
 mv:cambia el nombre o mueve de sitio un archivo
-
+touch: Crea un fichero o lo modifica
 
 
 
@@ -49,13 +49,35 @@ man o info
 3 Desorrollo de aplicaciones.
 
 ##Comandos que filtran
+grep: Filtra  
 
 
 
 #Otros
 wget: Descarga de Internet.
 -s: Squeeze
-sort: ordenar
+sort: ordenar  -n: Numérico.
 uniq -c: Deja filas únicas  -c: cuenta
 telnet: conectarse a un puerto de una máquina
 tr: Translate    cat [archivo] | tr "" ""
+xargs: Ejecuta con argumentos
+rsync: Hace copias de seguridad (varios equipos)
+mysqldump: valcado de la base de datos
+date: Muestra la fecha (backup rotativos)
+history: Muestra el historial
+fg <n>: Trae un proceso al primer plano.
+jobs: Lista todos los procesos que están en segundo detenidos. 
+ps aux: Vemos los procesos.
+kill <pid>: Matamos el proceso.
+kill -9 <pid>: Matar por la fuerza.
+
+## Comandos que trabajan con texto
+ed: Editor sin ventanas
+sed: Lo mismo
+vi: (mejorado)
+
+##Para buscar
+find: Busca ficheros
+xargs: Ejecuta con argumentos
+which: Dónde está un ejecutable
+find: Encontrar
